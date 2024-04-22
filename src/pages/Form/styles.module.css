@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main img {
+    width: 20%;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 35%;
+    border-radius: 20px;
+    background-color: #E9EDC9;
+}
+
+form h1 {
+    text-align: center;
+    color: #D4A373;
+    font-size: 50px;
+}

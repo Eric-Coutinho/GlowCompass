@@ -1,7 +1,7 @@
-export default function Nav() {
+export default function FormCard() {
     return (
         <>
             
         </>
-    )
+    );
 }
