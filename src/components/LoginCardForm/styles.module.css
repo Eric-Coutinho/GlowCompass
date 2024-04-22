@@ -1,4 +1,36 @@
+.card {
+    color: #D4A373;
+    background-color: #E9EDC9;
+    font-weight: 600;
+}
+
 .title {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
 }
+
+.recupera {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5em;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #D4A373;
+    font-weight: 600;
+    font-size: 30px;
+    border: #D4A373;
+}
+
+.btn:hover {
+    background-color: #9b754f;
+}
+
