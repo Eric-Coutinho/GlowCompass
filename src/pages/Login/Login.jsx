@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import LoginCard from "../../Components/LoginCardForm/LoginCard";
+import LoginCard from "../../components/LoginCardForm/LoginCard";
 
 import styles from './styles.module.css'
 

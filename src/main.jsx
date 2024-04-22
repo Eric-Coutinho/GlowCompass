@@ -9,7 +9,6 @@ import Login from './pages/Login/Login';
 import Form from './pages/Form/Form';
 import './index.css'
 import Componentes from './pages/Componentes.jsx';
-import Nav from './Components/Nav.jsx'
 
 const router = createBrowserRouter([
   {
