@@ -6,10 +6,9 @@ import {
 } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Login from './pages/Login/Login';
-import Form from './pages/Form/Form';
+import Form from './pages/FormSkin/FormSkin.jsx';
 import './index.css'
 import Componentes from './pages/Componentes.jsx';
-import Nav from './Components/Nav.jsx'
 
 const router = createBrowserRouter([
   {

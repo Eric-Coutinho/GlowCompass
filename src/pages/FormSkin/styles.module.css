@@ -22,4 +22,11 @@ form h1 {
     text-align: center;
     color: #D4A373;
     font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 100%;
+    color: #D4A373;
+    margin-bottom: 20px;
 }
