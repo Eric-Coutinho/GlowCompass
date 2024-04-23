@@ -1,7 +1,9 @@
-export default function FormCard() {
+import styles from './styles.module.css'
+
+export default function FormCard({ children }) {
     return (
-        <>
-            <h1>teste</h1>
-        </>
+        <form>
+            { children }
+        </form>
     );
 }
