@@ -1,7 +1,13 @@
+import Nav from "../components/Nav/Nav";
+import FormCard from "../components/FormCard/FormCard";
+import LoginCard from "../components/LoginCardForm/LoginCard";
+
 export default function Componentes() {
     return (
         <>
-            <h1>Componentes mt foda</h1>
+            <LoginCard />
+            <FormCard />
+            <Nav />
         </>
     )
 }

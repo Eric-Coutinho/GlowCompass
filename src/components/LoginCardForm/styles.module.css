@@ -2,6 +2,16 @@
     color: #D4A373;
     background-color: #E9EDC9;
     font-weight: 600;
+    height: 100%;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
 }
 
 .title {
