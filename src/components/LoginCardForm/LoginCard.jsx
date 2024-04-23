@@ -1,10 +1,11 @@
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import Button from '../Button/Button'
 
 import styles from './styles.module.css';
 import { Link } from 'react-router-dom';
+import FormCard from '../FormCard/FormCard';
 
 export default function LoginCard() {
     return (
