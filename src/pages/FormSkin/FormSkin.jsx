@@ -1,6 +1,7 @@
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import styles from './styles.module.css';
+import Button from '../../components/Button/Button';
 
 export default function FormSkin() {
     return (
@@ -21,6 +22,7 @@ export default function FormSkin() {
                     <FloatingLabel className={styles.input} controlId="sunscreen" label="Utiliza protetor solar?">
                         <Form.Control type="text" placeholder="Utiliza protetor solar?"/>
                     </FloatingLabel>
+                    <Button color='#9FAF75'>Enviar foto</Button>
                 </form>
                 <img src='produto rosa.avif' />
             </main>
