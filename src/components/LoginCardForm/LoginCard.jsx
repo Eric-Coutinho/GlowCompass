@@ -1,6 +1,6 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 
 import styles from './styles.module.css';
@@ -10,14 +10,14 @@ export default function LoginCard() {
     return (
         <>
             <Card className={styles.card}>
-                <Card.Body>
+                <Card.Body className={styles.cardBody}>
                     <Card.Title className={styles.title} as="h2">Login</Card.Title>
                     <FloatingLabel
                         controlId="floatingInput"
                         label="Email"
                         className="mb-3"
                     >
-                        <Form.Control type="email" placeholder="name@example.com" />
+                        <Form.Control type="email" placeholder="name@example.com"/>
                     </FloatingLabel>
                     <FloatingLabel controlId="floatingPassword" label="Senha">
                         <Form.Control type="password" placeholder="Senha" />
@@ -26,8 +26,11 @@ export default function LoginCard() {
                         <Link style={{ color: '#D4A373' }}>Recuperar Senha</Link>
                     </div>
                     <div className={styles.buttons}>
-                        <Button variant="primary" className={styles.btn} style={{marginBlock: '0.5em'}}>Entrar</Button>{' '}
-                        <Button variant="primary" className={styles.btn} style={{marginBottom: '0.8em'}}>Registrar-se</Button>{' '}
+                        <div className="d-grid gap-2">
+
+                            <Button className={styles.btn} style={{ marginBlock: '0.3em' }}>Entrar</Button>{' '}
+                            <Button className={styles.btn} style={{ marginBottom: '0.5em' }}>Registrar-se</Button>{' '}
+                        </div>
                     </div>
                 </Card.Body>
             </Card>
