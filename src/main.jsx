@@ -9,6 +9,7 @@ import Login from './pages/Login/Login';
 import Form from './pages/FormSkin/FormSkin.jsx';
 import './index.css'
 import Componentes from './pages/Componentes.jsx';
+import NotFound from './pages/NotFound/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: '/componentes',
     element: <Componentes/>
+  },
+  {
+    path: '/*',
+    element: <NotFound/>
   }
 ]);
 
