@@ -1,8 +1,6 @@
 {
-    "version": 2,
-    "builds": [{ "src": "main.jsx", "use": "@vercel/node" }],
     "routes": [
-        { "src": "/", "dest": "/" },
-        { "src": "/formulario", "dest": "/" }
-      ]
-}
+      { "src": "/", "dest": "/" },
+      { "src": "/formulario", "dest": "/" }
+    ]
+  }
