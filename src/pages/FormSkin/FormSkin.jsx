@@ -10,7 +10,7 @@ export default function FormSkin() {
             <main>
                 <img src='produto verde.avif' />
                 <FormCard path='/'>
-                    <div>
+                    <div style={{ marginBottom: '0.5em' }}>
                         <h1>Descubra o seu tipo de pele</h1>
                         <FloatingLabel className={styles.input} controlId="skinaspect" label="Aspecto da pele">
                             <Form.Control type="text" placeholder="Aspecto da pele" />
