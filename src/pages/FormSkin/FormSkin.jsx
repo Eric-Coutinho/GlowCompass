@@ -9,7 +9,7 @@ export default function FormSkin() {
         <>
             <main>
                 <img src='produto verde.avif' />
-                <FormCard>
+                <FormCard path='/'>
                     <div>
                         <h1>Descubra o seu tipo de pele</h1>
                         <FloatingLabel className={styles.input} controlId="skinaspect" label="Aspecto da pele">

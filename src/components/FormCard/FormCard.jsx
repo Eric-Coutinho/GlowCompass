@@ -1,8 +1,8 @@
 import styles from './styles.module.css'
 
-export default function FormCard({ children }) {
+export default function FormCard({ path, children }) {
     return (
-        <form>
+        <form action={path}>
             { children }
         </form>
     );

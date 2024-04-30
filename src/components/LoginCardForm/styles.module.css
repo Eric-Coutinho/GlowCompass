@@ -22,6 +22,7 @@
 }
 
 .recupera {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-top: 0.5em;
@@ -32,6 +33,7 @@
 .buttons {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .btn {
