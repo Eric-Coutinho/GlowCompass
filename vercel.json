@@ -1,6 +1,7 @@
 {
     "routes": [
       { "src": "/", "dest": "/" },
-      { "src": "/formulario", "dest": "/" }
+      { "src": "/formulario", "dest": "/" },
+        { "src": "/componentes", "dest": "/" }
     ]
   }
